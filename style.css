@@ -1,0 +1,25 @@
+.dice-game-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #222;
+  width: 16rem;
+  height: 10rem;
+}
+
+.rolled-stats-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #222;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
