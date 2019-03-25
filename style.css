@@ -1,16 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+}
+
+.game-controller {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #222;
+  height: 8rem;
+  width: 18rem;
+  margin-bottom: 1rem;
+}
+
 .dice-game-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   border: 2px solid #222;
-  width: 16rem;
-  height: 10rem;
+  width: 90vw;
+  height: 18rem;
+  margin-bottom: 2rem;
 }
 
 .rolled-stats-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   border-top: 2px solid #222;
@@ -21,5 +42,10 @@ h3 {
 }
 
 h4 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.roll-btn {
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
 }
